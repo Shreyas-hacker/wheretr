@@ -1,5 +1,4 @@
-import React,{useEffect, useState} from 'react';
-import {Halls} from '../../api/halls'
+import React,{useState} from 'react';
 import SearchIcon from "@mui/icons-material/Search"
 import CloseIcon from "@mui/icons-material/Close"
 
@@ -40,7 +39,7 @@ const SearchBar = ({placeholder,data})=>{
                 </div>
             </div>
             <div>
-                {filteredData.length!=0 && (
+                {filteredData.length!==0 && (
                     <div className='dataResult'>
                         {filteredData.slice(0,15).map((value,key)=>{
                             return(
