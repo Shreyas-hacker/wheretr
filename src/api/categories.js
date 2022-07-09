@@ -1,4 +1,4 @@
-const Categories = [
+export const Categories = [
     {
         id:1,
         Cluster:"Halls"
@@ -19,10 +19,4 @@ const Categories = [
         id:5,
         Cluster:"Food & Beverages"
     },
-    {
-        id:6,
-        Cluster:"Supper Stretch(Coming Soon)"
-    },
 ]
-
-export default Categories
