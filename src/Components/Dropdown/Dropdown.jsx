@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import './Dropdown.css'
 import SearchBar from '../SearchBar/SearchBar';
-import {Halls} from '../../api/halls'
+import {Merging} from '../../api/merging'
 const DropdownList = ({data,selected,setSelected})=>{
     const [isActive, setIsActive] = useState(false);
     const handleChoose = (e)=>{
         setSelected(e.Cluster)
         setIsActive(false)
+    }
+    const getData = (Data)=>{
+        for(const element of Data){
+            if(element.name===selected){
+                return element.data
+            }
+        }
     }
     return (
         <div className="together">
@@ -18,7 +25,7 @@ const DropdownList = ({data,selected,setSelected})=>{
                     <div className="dropdown-content">
                         {data.map((value)=>{
                             return (
-                                <div onClick={()=>handleChoose(value)} className="dropdown-item">
+                                <div key={value.id} onClick={()=>handleChoose(value)} className="dropdown-item">
                                     {value.Cluster}
                                 </div>
                             )
@@ -26,7 +33,7 @@ const DropdownList = ({data,selected,setSelected})=>{
                     </div>
                 )}
             </div>
-            <SearchBar placeholder="Where you want go la" data={Halls}/>
+            <SearchBar placeholder="Where you want go la" data={getData(Merging)}/>
         </div>
     )
 }

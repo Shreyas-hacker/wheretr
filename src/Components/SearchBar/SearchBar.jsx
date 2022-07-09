@@ -43,7 +43,7 @@ const SearchBar = ({placeholder,data})=>{
                     <div className='dataResult'>
                         {filteredData.slice(0,15).map((value,key)=>{
                             return(
-                                <div className='dataItem' target="_blank">
+                                <div key={value.id} className='dataItem' target="_blank">
                                     <p>{value.loc}</p>
                                 </div>
                             )

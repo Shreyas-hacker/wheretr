@@ -1,101 +1,99 @@
-const School =  [
+export const Schools =  [
     {
-        "id":1,
-        "School": "School of Art, Design and Media (ADM)",
+        id:1,
+        loc: "School of Art, Design and Media (ADM)",
     },
     {
-        "id":2,
-        "School": "School of Chemical and Biomedical Engineering (SCBE) ",
+        id:2,
+        loc: "School of Chemical and Biomedical Engineering (SCBE) ",
     },
     {
-        "id":3,
-        "School": "School of Civil and Environmental Engineering (CEE) ",
+        id:3,
+        loc: "School of Civil and Environmental Engineering (CEE) ",
     },
     {
-        "id":4,
-        "School": "School of Computer Science and Engineering (SCSE)"
+        id:4,
+        loc: "School of Computer Science and Engineering (SCSE)"
     },
     {
-        "id":5,
-        "School": "School of Electrical and Electronic Engineering (EEE)",
+        id:5,
+        loc: "School of Electrical and Electronic Engineering (EEE)",
     
     },
     {
-        "id":6,
-        "School": "School of Materials Science and Engineering (MSE)"
+        id:6,
+        loc: "School of Materials Science and Engineering (MSE)"
     },
     {
-        "id":7,
-        "School": "School of Mechanical and Aerospace Engineering (MAE)",
+        id:7,
+        loc: "School of Mechanical and Aerospace Engineering (MAE)",
     },
     {
-        "id":8,
-        "School": "School of Biological Sciences (SBS)"
+        id:8,
+        loc: "School of Biological Sciences (SBS)"
     },
     {
-        "id":9,
-        "School": "School of Physical and Mathematical Sciences (SPMS) "
+        id:9,
+        loc: "School of Physical and Mathematical Sciences (SPMS) "
     },
     {
-        "id":10,
-        "School": "Nanyang Business School (NBS)"
+        id:10,
+        loc: "Nanyang Business School (NBS)"
     },
     {
-        "id":11,
-        "School": "School of Humanities and Social Sciences (HSS) "
+        id:11,
+        loc: "School of Humanities and Social Sciences (HSS) "
     },
     {
-        "id":12,
-        "School": "Wee Kim Wee School of Communication and Information (WKW)"
+        id:12,
+        loc: "Wee Kim Wee School of Communication and Information (WKW)"
     },
     {
-        "id":13,
-        "School": "Lee Kong Chian School of Medicine (LKCSoM)"
+        id:13,
+        loc: "Lee Kong Chian School of Medicine (LKCSoM)"
     },
     {
-        "id":14,
-        "School": "Earth Observatory of Singapore"
+        id:14,
+        loc: "Earth Observatory of Singapore"
     },
     {
-        "id":15,
-        "School": "National Institute of Education (NIE) "
+        id:15,
+        loc: "National Institute of Education (NIE) "
     },
     {
-        "id":16,
-        "School": "Research Techno Plaza"
+        id:16,
+        loc: "Research Techno Plaza"
     },
     {
-        "id":17,
-        "School": "Singapore Centre on Environmental Life Sciences Engineering"
+        id:17,
+        loc: "Singapore Centre on Environmental Life Sciences Engineering"
     },
     {
-        "id":18,
-        "School": "Singapore-MIT Alliance"
+        id:18,
+        loc: "Singapore-MIT Alliance"
     },
     {
-        "id":19,
-        "School": "S. Rajaratnam School of International Studies (RSIS)"
+        id:19,
+        loc: "S. Rajaratnam School of International Studies (RSIS)"
     },
     {
-        "id":20,
-        "School": "Sport Science and Management (SSM)"
+        id:20,
+        loc: "Sport Science and Management (SSM)"
     },
     {
-        "id":21,
-        "School": "National Institute of Early Child Development (NIEC)"
+        id:21,
+        loc: "National Institute of Early Child Development (NIEC)"
     },
     {
-        "id":22,
-        "School": "Asian School of Environment (ASE)"
+        id:22,
+        loc: "Asian School of Environment (ASE)"
     },
     {
-        "id":23,
-        "School": "School of Social Sciences (SoSS)"
+        id:23,
+        loc: "School of Social Sciences (SoSS)"
     },
     {
-        "id":24,
-        "School": "School of Humanities (SoH)"
+        id:24,
+        loc: "School of Humanities (SoH)"
     }
 ]
-
-export default School
