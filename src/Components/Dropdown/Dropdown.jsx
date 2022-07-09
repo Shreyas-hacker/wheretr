@@ -6,12 +6,19 @@ const DropdownList = ({data})=>{
 
     return (
         <div className="dropdown">
-            <button className="dropdown-content">Dropdown</button>
-            <div id="myDropdown" className="dropdown-content">
-                
+            <div className="dropdown-btn">Choose One</div>
+            <div className="dropdown-content">
+                {data.map((value)=>{
+                    return (
+                        <div className="dropdown-item">
+                            {value.Cluster}
+                        </div>
+                    )
+                })}
             </div>
         </div>
     )
 }
 
+//asalaam may allah bless us with this drop down list
 export default DropdownList
