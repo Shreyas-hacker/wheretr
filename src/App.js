@@ -1,18 +1,16 @@
-import React from 'react';
+import React,{useState} from 'react';
 import "./App.css"
-import SearchBar from "./Components/SearchBar/SearchBar"
 import DropdownList from "./Components/Dropdown/Dropdown"
 import Header from "./Layouts/Header"
-import {Halls} from "./api/halls"
 import {Categories} from "./api/categories"
 
 function App() {
+  const [selected,setSelected] = useState("Choose One");
   return (
     <div className='App'>
         <Header/>
         <div className='glass'>
-          <DropdownList data={Categories}/>
-          <SearchBar placeholder="Where you want go la" data={Halls}/>
+          <DropdownList data={Categories} selected={selected} setSelected={setSelected}/>
         </div>
     </div>
   );
