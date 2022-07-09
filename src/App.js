@@ -1,21 +1,19 @@
 import React from 'react';
 import "./App.css"
 import SearchBar from "./Components/SearchBar/SearchBar"
+import DropdownList from "./Components/Dropdown/Dropdown"
 import Header from "./Layouts/Header"
 import {Halls} from "./api/halls"
-import Dropdown from './Components/Dropdown/Dropdown';
+import {Categories} from "./api/categories"
 
 function App() {
   return (
     <div className='App'>
         <Header/>
         <div className='glass'>
-          <Dropdown/>
+          <DropdownList data={Categories}/>
           <SearchBar placeholder="Where you want go la" data={Halls}/>
         </div>
-      {/* <div className='Choices'>
-        <Cards category={halls}/>
-      </div> */}
     </div>
   );
 }

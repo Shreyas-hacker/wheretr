@@ -1,4 +1,4 @@
-const Categoies = [
+const Categories = [
     {
         id:1,
         Cluster:"Halls"
@@ -24,3 +24,5 @@ const Categoies = [
         Cluster:"Supper Stretch(Coming Soon)"
     },
 ]
+
+export default Categories
