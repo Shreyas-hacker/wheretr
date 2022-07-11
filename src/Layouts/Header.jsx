@@ -13,7 +13,9 @@ const Header = ()=>{
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     WhereisMyTR?
                 </Typography>
-                    <Button color="inherit"><Link to="/NTUDirectory">NTU Directory</Link></Button>
+                    <Link to="/NTUDirectory" style={{textDecoration:"none",color:"white"}}>
+                        <Button color="inherit">NTU Directory</Button>
+                    </Link>
                 </Toolbar>
             </AppBar>
         </header>
